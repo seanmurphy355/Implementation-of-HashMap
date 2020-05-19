@@ -10,6 +10,7 @@ A Hashmap (also known as a hash table) is a data structure that maps key values 
 ### Strengths: 
 - Fast lookup: runs at O(1) time on average
 - Flexible keys: Allows for most data types to be used as keys, as long as they're hashtable.
+
 ### Weaknesses: 
 - Worst case lookup: Can take O(n) runtime
 - Unordered: Keys are not stored in a special order. You must look through all the keys in order to find a specific item that you are looking for.
@@ -29,3 +30,4 @@ This is something that occurs in a hashmap if two different keys happen to have 
 | Delete  | O(1) | O(n) |
 
 ## Project Discription
+These files implement the hashmap data structure using a dictionary. The Hashmap structure that is created is utilized in order to create a low level spell checker program.
